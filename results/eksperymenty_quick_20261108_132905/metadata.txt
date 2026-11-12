@@ -1,0 +1,12 @@
+generated_at: 2026-11-08T13:29:15
+python: 3.13.15
+platform: win32
+mode: quick
+tasks_per_group: 4
+repeats_per_parameter_case: 2
+seed: 2026
+series: all
+GA_base_parameters: {'population': 40, 'generations': 100, 'crossover': 0.8, 'mutation': 0.05}
+groups: [{'n': 6, 'T': 7}, {'n': 12, 'T': 10}, {'n': 18, 'T': 14}, {'n': 36, 'T': 21}]
+reference_rule: У quality: max(F_ЖА, F_ГА) для цієї задачі, не глобальний оптимум.
+time_measurement: perf_counter_ns, мс; без генерації задач, файлів та виводу.
